@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit2_HimalayaUSA_Clone</title>
+    <link rel="stylesheet" href="common.css" />
+    <script src="https://kit.fontawesome.com/462bdcea9e.js" crossorigin="anonymous"></script>
+    <style>
+        #container{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        h1{
+            text-align: center;
+        }
+        #typeSec{
+            width: 20%;
+            padding: 50px;
+        }
+        #leftSel{
+            height: 35px;
+            width: 210px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        #ProductSec{
+            width: 78%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4);
+            gap: 20px;
+        }
+      
+        #ProductSec>div>img{
+            width: 100%;
+            
+        }
+        .innerdiv{
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+            margin-top: 0px;
+        }
+        i{
+            font-size: 24px;
+
+        }
+        p{
+            font-size: 18px;
+        }
+        #more{
+            padding: 15px 10px 15px 10px;
+            margin: 20px;
+            border: 1px solid gray;
+            margin: auto;
+            font-size: 18px;
+        }
+        #more:hover{
+            background-color: teal;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top"><b>FREE SHIPPING</b> ON ALL ORDERS ABOVE $35!</div>
+    <div id="navbar">
+        <div id="left">
+            <div><a href="index.html"><img src="https://cdn.shopify.com/s/files/1/0272/4714/9155/files/90_Plus_years_300px.png?height=628&pad_color=ffffff&v=1622119115&width=1200" alt=""></a></div>
+            <div><a href="shop.html" id="shope">Shop</a> </div>
+            <div><a href="about.html">About</a></div>
+            <div><a href="storeLocator.html">Store Locator</a></div>
+        </div>
+        <div id="right">
+            <div id="search"><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></div>
+            <div id="profile"><a href="profile.html"><i class="fa-solid fa-user"></i></a></div>
+            <div id="cart"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+        </div>
+    </div>
+  <h1>Products</h1>
+  <div id="container">
+      <div id="typeSec">
+          <select name="" id="leftSel">
+              <option value="">Health Category</option>
+              <option value="">Herbal Supplements</option>
+              <option value="">Health Interests</option>
+              <option value="">Oral Care</option>
+              <option value="">Personal Care</option>
+          </select>
+      </div>
+      <div id="ProductSec">
+          <div>
+              <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-3_1024x.png?v=1591028195" alt="">
+              <p>Back to Balance Cleanse™</p>
+              <div class="innerdiv">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>$29</p> 
+              </div>
+          </div>
+          <div>
+              <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/HimalayaBambooToothpaste-Tube_Front_1024x.png?v=1613065864" alt="">
+            <p>Bamboo & Sea Salt Whitening Antiplaque Toothpaste</p>
+            <div class="innerdiv">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <p>$5.99</p> 
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/BEAUTY_bodybar_purifying-2_1024x.png?v=1595909766" alt="">
+            <p>Body Bar: Purifying (Neem & Turmeric)</p>
+            <div class="innerdiv">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <p>$4.99</p> 
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-58_1024x.png?v=1591027935" alt="">
+            <p>Body Bar: Refreshing (Lavender & Rosemary)</p>
+            <div class="innerdiv">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <p>$13.95</p> 
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-3_1024x.png?v=1591028195" alt="">
+            <p>Back to Balance Cleanse™</p>
+            <div class="innerdiv">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <p>$29</p> 
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/HimalayaBambooToothpaste-Tube_Front_1024x.png?v=1613065864" alt="">
+          <p>Bamboo & Sea Salt Whitening Antiplaque Toothpaste</p>
+          <div class="innerdiv">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>$5.99</p> 
+          </div>
+      </div>
+      <div>
+          <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/BEAUTY_bodybar_purifying-2_1024x.png?v=1595909766" alt="">
+          <p>Body Bar: Purifying (Neem & Turmeric)</p>
+          <div class="innerdiv">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>$4.99</p> 
+          </div>
+      </div>
+      <div>
+          <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-58_1024x.png?v=1591027935" alt="">
+          <p>Body Bar: Refreshing (Lavender & Rosemary)</p>
+          <div class="innerdiv">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <p>$13.95</p> 
+          </div>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-3_1024x.png?v=1591028195" alt="">
+        <p>Back to Balance Cleanse™</p>
+        <div class="innerdiv">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <p>$29</p> 
+        </div>
+    </div>
+    <div>
+        <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/HimalayaBambooToothpaste-Tube_Front_1024x.png?v=1613065864" alt="">
+      <p>Bamboo & Sea Salt Whitening Antiplaque Toothpaste</p>
+      <div class="innerdiv">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <p>$5.99</p> 
+      </div>
+  </div>
+  <div>
+      <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/BEAUTY_bodybar_purifying-2_1024x.png?v=1595909766" alt="">
+      <p>Body Bar: Purifying (Neem & Turmeric)</p>
+      <div class="innerdiv">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <p>$4.99</p> 
+      </div>
+  </div>
+  <div>
+      <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-58_1024x.png?v=1591027935" alt="">
+      <p>Body Bar: Refreshing (Lavender & Rosemary)</p>
+      <div class="innerdiv">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <p>$13.95</p> 
+      </div>
+  </div>
+  <div>
+    <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-3_1024x.png?v=1591028195" alt="">
+    <p>Back to Balance Cleanse™</p>
+    <div class="innerdiv">
+      <i class="fa-solid fa-bag-shopping"></i>
+      <p>$29</p> 
+    </div>
+</div>
+<div>
+    <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/HimalayaBambooToothpaste-Tube_Front_1024x.png?v=1613065864" alt="">
+  <p>Bamboo & Sea Salt Whitening Antiplaque Toothpaste</p>
+  <div class="innerdiv">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <p>$5.99</p> 
+  </div>
+</div>
+<div>
+  <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/BEAUTY_bodybar_purifying-2_1024x.png?v=1595909766" alt="">
+  <p>Body Bar: Purifying (Neem & Turmeric)</p>
+  <div class="innerdiv">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <p>$4.99</p> 
+  </div>
+</div>
+<div>
+  <img src="https://cdn.shopify.com/s/files/1/0399/1728/9633/products/image-58_1024x.png?v=1591027935" alt="">
+  <p>Body Bar: Refreshing (Lavender & Rosemary)</p>
+  <div class="innerdiv">
+    <i class="fa-solid fa-bag-shopping"></i>
+    <p>$13.95</p> 
+  </div><div id="more">Show More</div>
+</div>
+
+       
+      </div>
+  </div>
+  <div id="lst">
+    <div>
+        <div>
+            <h2>Info</h2>
+            <p><a href="">Contact Us</a></p>
+            <p><a href="">FAQ</a></p>
+            <p><a href="">Blog</a></p>
+            <p><a href="">Store Locater</a></p>
+            <p><a href="">Careers</a></p>
+        </div>
+        <div>
+            <h2>Policies</h2>
+            <p><a href="">Shipping & Returns</a></p>
+            <p><a href="">Terms & Conditions</a></p>
+            <p><a href="">Privacy</a></p>
+            <p><a href="">CCPA</a></p>
+            <p><a href="">Accessibility</a></p>
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <p><a href="">Email:
+             writetous@himalayausa.com</a></p>
+             <p><a href="">1-800-869-4640
+                     : Mon-Fri, 8am-5pm CT</a></p>
+                     <p><a href="">Mail:
+                         Himalaya Wellness
+                         1101 Gillingham Lane
+                         Sugar Land, TX 77478​</a></p>
+        </div>
+        <div>
+            <h2>Subscribe to Our Newsletter!</h2>
+            <input type="email" placeholder="Enter Your Email"><a href="email.com"><i class="fa-solid fa-envelope"></i></a>
+            <p><a href="">By entering your email, you agree to our Terms & Conditions and Privacy Policy.</a></p>
+            <p><a href="">Follow Us:</a><a href="facebook.com"><i class="fa-brands fa-facebook"></i></a><a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+         <a href="insta.com"><i class="fa-brands fa-instagram"></i></a><a href="youtube.com"><i class="fa-brands fa-youtube"></i></a></p>
+        </div>
+    </div>
+    <p id="lastp">© 2022 Himalaya Wellness. All rights reserved.</p>
+    <div id="bottombox">
+         <p>*THESE STATEMENTS HAVE NOT BEEN EVALUATED BY THE FOOD AND DRUG ADMINISTRATION. THIS PRODUCT IS NOT INTENDED TO DIAGNOSE, TREAT, CURE OR PREVENT ANY DISEASE.</p>
+    </div>
+
+</div>
+</body>
+</html>
+<script>
+
+</script>
